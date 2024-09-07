@@ -9,5 +9,13 @@ year = "2024"
 print (year)
 hundreds = "435"
 print (hundreds)
-eye = "brown"
+eye = "Brown"
 print(eye)
+breakfast = "Eggs and toast"
+print(breakfast)
+age = "14"
+print(age)
+color = "Blue"
+print(color)
+subject = "Mathematics"
+print(subject)
