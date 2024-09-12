@@ -9,9 +9,8 @@ int main(void) {
     printf("%d\n", (17-6/2)+4*3);
     printf("%d\n", -2(1*4-2/2)+(6+2-3));
     printf("%d\n", -1*[(3-4*7)/5]-2*24/6);
-    printf;
-    printf;
-    printf;
-    printf;
+    printf("%d\n", 3*5**/15)-(5-2**);
+    printf("%d\n", (1**** 2**+ 3***)-2***** /4);
+    printf("%d\n", );
     return 0;
 }
