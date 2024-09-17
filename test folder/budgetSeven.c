@@ -17,11 +17,11 @@ int main(void){
     expenses = rent + utilities + groceries + transportation;
     savings = income *.2;
     total = income - expenses - savings;
-    prent = rent/income;
-    putilities = utilities/income;
-    pgroceries = groceries/income;
-    ptransportation = transportation/income;
-    pexpenses = expenses/income;
+    prent = rent/income*100;
+    putilities = utilities/income*100;
+    pgroceries = groceries/income*100;
+    ptransportation = transportation/income*100;
+    pexpenses = expenses/income*100;
    
     printf("Your income is: $%.2f\n", income);
     printf("Your expenses is: $%.2f\n", expenses);
