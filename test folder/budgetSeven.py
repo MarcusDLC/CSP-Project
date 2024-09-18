@@ -14,14 +14,15 @@ pgroceries = (groceries / income)* 100
 ptransportation = (transportation / income)* 100
 pexpenses = (expenses / income)* 100
 psavings = (savings / income)* 100
-print(f"Your income is: $(income:.2f)")
-print(f"Your expenses are: $(expenses:.2f)")
-print(f"Your savings are: $(savings:.2f)")
-print(f"Your total left to spend is: $(total:.2f)")
-print(f"Your rent is (prent:.2f)% of your income")
-print(f"Your transportation is (ptransportation:.2f)% of your income")
-print(f"Your groceries are (pgroceries:.2f)% of your income")
-print(f"Your utilities are (putilities:.2f)% of your income")
-print(f"Your savings are (psavings:.2f)% of your income")
-print(f"Your expenses are (pexpenses:.2f)% of your income")
+print(f"Your income is: ${income:.2f}")
+print(f"Your expenses are: ${expenses:.2f}")
+print(f"Your savings are: ${savings:.2f}")
+print(f"Your total left to spend is: ${total:.2f}")
+
+print(f"Your rent is {int(prent)}% of your income\n")
+print(f"Your transportation is {int(ptransportation)}%  of your income")
+print(f"Your groceries are {int(pgroceries)}% of your income")
+print(f"Your utilities are {int(putilities)}% of your income")
+print(f"Your savings are {int(psavings)}% of your income")
+print(f"Your expenses are {int(pexpenses)}% of your income")
 
