@@ -1,19 +1,12 @@
 
-printf("Type in a place!")
-scanf("%s", name)
-printf("Type in an adjective")
-scanf("%s", place)
-printf("Type in a past tense verb!")
-scanf("%s", verb)
-printf("Type in a noun!")
-scanf("%s", noun)
-strcat(sentence, name)
-strcat(sentence, " went to the ")
-strcat(sentence, place)
-strcat(sentence, " where they ")
-strcat(sentence, verb)
-strcat(sentence, " and bought a ")
-strcat(sentence, noun)
-strcat(sentence, ".")
-printf("%s", sentence)
-printf("%s went to the %s where they %s and bought a %s.", name, place, verb, noun);
+
+place = input("Type in a place!")
+adjective = input("Type in an adjective")
+adverb = input("Type in an adverb!")
+pluralNoun = input("Type in a plural noun!")
+name = input("Type in a name!")
+noun = input("Type in a noun")
+
+Madlib = place + ", the most wonderful and " + adjective + " city in the world, full with townsfolk " + adverb + " walking with playful " + pluralNoun + ". You'll soon meet mayor " + name + ". The most amazing " + noun + " in all of " + place + "."
+
+print(Madlib)
