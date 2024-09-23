@@ -14,4 +14,4 @@ pluralnoun2 = input("Type in a plural noun!")
 ingverb2 = input("Type in another verb ending in ING!")
 noun2 = input("Type in another noun!")
 
-Madlib = "It was a " + adjective + " , cold day in November. I woke up to the " + adjective2 + " smell of " + birdtype
+Madlib = "It was a " + adjective + " , cold day in November. I woke up to the \n" + adjective2 + " smell of " + birdtype
