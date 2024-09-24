@@ -8,6 +8,5 @@ int main(void){
     name("Markus\n");
     name("Fernanda\n");
     name("Alexandra\n");
-
     return 0;
 }
