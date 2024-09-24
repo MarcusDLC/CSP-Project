@@ -1,9 +1,13 @@
 #include <stdio.h>
+void name(char name[]){
+    printf("Hello %s", name);
+}
 int main(void){
-    char user_input [30];
-    printf("What is your name?:\n");
-    scanf("%s", user_input);
-    printf("Hello %s",user_input);
-    
+    name("Victoria\n");
+    name("Francis\n");
+    name("Markus\n");
+    name("Fernanda\n");
+    name("Alexandra\n");
+
     return 0;
 }
