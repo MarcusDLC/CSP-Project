@@ -1,11 +1,12 @@
 
+def dollars(type):
+    return("How much is your {type}? ")
+
+
 
 print("This is going to calculate your budget for you")
-income = float(input("How much do you make a month? "))
-groceries = float(input("How much is groceries? "))
-utilities = float(input("How much is utilities? "))
-transportation = float(input("How much is transportation? "))
-rent = float(input("How much is rent? "))
+income = float(dollars("income"))
+
 
 expenses = rent + utilities + groceries + transportation
 savings = income * .2
@@ -18,18 +19,25 @@ pexpenses = (expenses / income)* 100
 psavings = (savings / income)* 100
 
 def percent(type, amount):
-    per = amount/income
-
-    print(f"Your {type} is ${amount} of your income.")
+    per = amount/income*100
+    
+    return (f"Your {type} is {amount}% of your income.")
 
 print(f"Your income is: ${income:.2f}")
 print(f"Your expenses are: ${expenses:.2f}")
 print(f"Your savings are: ${savings:.2f}")
 print(f"Your total left to spend is: ${total:.2f}")
 
-percent("rent", rent)
-percent("utilities", utilities)
-percent("groceries", groceries)
-percent("transportation", transportation)
-percent("savings", savings)
-percent("expenses", expenses)
+print(percent("rent", rent))
+print(percent("utilities", utilities))
+print(percent("groceries", groceries))
+print(percent("transportation", transportation))
+print(percent("savings", savings))
+print(percent("expenses", expenses))
+
+income = float(dollars("income",income))
+rent = float(dollars("rent", rent))
+groceries = float(dollars("rent", rent))
+utilities = float(input("How much is utilities? "))
+transportation = float(input("How much is transportation? "))
+rent = float(input("How much is rent? "))
