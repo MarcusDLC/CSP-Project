@@ -8,3 +8,6 @@ elif age >= 15:
  print("You qualify to get a learner's permit!")
 elif age >= 5:
  print("You qualify to go to school!")
+else:
+ print("You are too young to go to school.")
+    
